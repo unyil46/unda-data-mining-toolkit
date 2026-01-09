@@ -10,5 +10,6 @@ def display_menu():
     print("6. Analisis dataset dengan K-Means Clustering")
     print("7. Analisis dataset dengan Apriori (Association Rules)")
     print("8. Hapus folder dataset lokal")
+    print("9. Ensemble Metodhs Sederhana")
     print("Ketik 'q' untuk keluar.")
-    return input("Pilih opsi [1-8]: ").strip()
+    return input("Pilih opsi [1-9]: ").strip()

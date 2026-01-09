@@ -1,7 +1,9 @@
 venv/
-.env/
+.env
+*.env/
 __pycache__/
 .ipynb_checkpoints/
 lawas/
 .vscode/
 .DS_Store
+
