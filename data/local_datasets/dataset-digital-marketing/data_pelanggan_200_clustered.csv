@@ -1,0 +1,201 @@
+ID Pelanggan,Usia,Jenis Kelamin,Pendapatan,Durasi Kunjungan (menit),Produk Dilihat,Frekuensi Pembelian,Rating Kepuasan,Lokasi Geografis,Media Sosial,Pekerjaan,Cluster
+1,59,Wanita,56506,19,3,3,5,Kota A,Instagram,Freelancer,0
+2,34,Pria,140094,48,3,4,1,Kota C,Twitter,Mahasiswa,1
+3,30,Wanita,87596,32,6,0,5,Kota C,Facebook,PNS,2
+4,57,Wanita,93232,42,10,3,5,Kota C,Instagram,PNS,2
+5,56,Pria,120055,18,1,4,2,Kota B,Instagram,Freelancer,1
+6,52,Wanita,91361,20,1,3,5,Kota B,Twitter,PNS,2
+7,29,Pria,35077,43,9,3,5,Kota A,Twitter,PNS,0
+8,23,Pria,87216,54,9,2,3,Kota C,Instagram,Karyawan Swasta,2
+9,23,Wanita,30565,29,8,0,3,Kota C,Twitter,Mahasiswa,0
+10,40,Wanita,83898,37,5,5,5,Kota A,Instagram,Freelancer,2
+11,59,Pria,125253,40,7,3,5,Kota B,Instagram,Mahasiswa,1
+12,30,Pria,99962,4,3,4,1,Kota B,Instagram,Karyawan Swasta,2
+13,39,Pria,80869,3,7,3,5,Kota B,Twitter,Buruh,2
+14,49,Wanita,75069,19,6,3,2,Kota B,Facebook,Karyawan Swasta,2
+15,21,Wanita,46570,8,8,5,1,Kota B,Facebook,Freelancer,0
+16,27,Pria,130453,18,7,1,1,Kota C,Instagram,PNS,1
+17,45,Pria,81448,30,3,2,1,Kota B,Facebook,Buruh,2
+18,21,Pria,76357,48,9,0,4,Kota C,Facebook,PNS,2
+19,43,Pria,45116,57,5,0,5,Kota B,Twitter,PNS,0
+20,26,Pria,66060,36,2,3,1,Kota A,Facebook,Mahasiswa,2
+21,49,Wanita,38215,9,7,0,2,Kota A,Twitter,Karyawan Swasta,0
+22,20,Pria,44726,8,4,0,5,Kota A,Instagram,Buruh,0
+23,35,Wanita,72817,40,3,3,5,Kota C,Instagram,Buruh,2
+24,54,Wanita,122861,22,8,0,4,Kota B,Twitter,Karyawan Swasta,1
+25,35,Pria,96179,18,8,4,2,Kota B,Twitter,Karyawan Swasta,2
+26,54,Wanita,98045,13,5,0,4,Kota A,Facebook,Mahasiswa,2
+27,52,Pria,146557,16,7,0,5,Kota C,Instagram,PNS,1
+28,50,Wanita,37757,40,2,3,2,Kota C,Facebook,Mahasiswa,0
+29,56,Wanita,37842,50,1,5,4,Kota A,Twitter,Karyawan Swasta,0
+30,25,Pria,53078,22,3,4,2,Kota C,Instagram,Buruh,0
+31,43,Wanita,124736,22,10,3,3,Kota C,Instagram,Mahasiswa,1
+32,36,Pria,90758,40,7,2,2,Kota C,Twitter,PNS,2
+33,19,Pria,80428,2,6,1,1,Kota B,Twitter,Buruh,2
+34,41,Wanita,143562,34,5,5,3,Kota B,Facebook,Buruh,1
+35,24,Pria,112920,48,7,0,3,Kota B,Instagram,Freelancer,1
+36,60,Wanita,38527,57,10,0,4,Kota A,Facebook,Karyawan Swasta,0
+37,59,Wanita,148875,43,2,5,2,Kota B,Facebook,Karyawan Swasta,1
+38,36,Wanita,69933,46,6,4,1,Kota A,Instagram,Freelancer,2
+39,56,Wanita,130886,19,10,0,2,Kota A,Facebook,Karyawan Swasta,1
+40,55,Pria,31638,57,9,0,4,Kota B,Twitter,Freelancer,0
+41,22,Wanita,144728,38,8,0,5,Kota C,Instagram,Buruh,1
+42,43,Pria,98552,37,9,5,1,Kota A,Facebook,Freelancer,2
+43,21,Wanita,87691,10,7,1,4,Kota C,Facebook,Buruh,2
+44,39,Pria,95774,30,9,1,2,Kota C,Facebook,Karyawan Swasta,2
+45,33,Pria,124418,51,7,4,4,Kota C,Facebook,Freelancer,1
+46,40,Pria,95436,59,9,1,2,Kota B,Facebook,Mahasiswa,2
+47,30,Pria,89689,3,10,3,5,Kota B,Facebook,PNS,2
+48,39,Wanita,123958,32,4,3,3,Kota A,Facebook,Mahasiswa,1
+49,28,Wanita,55156,9,8,2,1,Kota C,Twitter,PNS,0
+50,20,Pria,48482,46,2,0,5,Kota A,Facebook,Buruh,0
+51,33,Wanita,132632,45,2,0,5,Kota B,Instagram,Mahasiswa,1
+52,46,Pria,123396,28,3,2,2,Kota A,Facebook,Karyawan Swasta,1
+53,49,Pria,59822,35,8,4,5,Kota B,Facebook,Freelancer,0
+54,49,Wanita,107187,37,1,2,2,Kota C,Instagram,PNS,1
+55,33,Pria,120770,14,1,1,5,Kota B,Facebook,Karyawan Swasta,1
+56,20,Wanita,102250,5,4,5,4,Kota B,Facebook,Mahasiswa,2
+57,19,Wanita,79567,15,4,4,5,Kota B,Instagram,PNS,2
+58,60,Wanita,88827,25,1,2,1,Kota C,Instagram,Buruh,2
+59,36,Wanita,31672,30,4,3,5,Kota A,Facebook,Mahasiswa,0
+60,35,Wanita,119703,21,8,3,5,Kota C,Facebook,PNS,1
+61,31,Pria,80040,30,1,1,4,Kota B,Twitter,PNS,2
+62,26,Pria,31724,52,6,0,3,Kota A,Facebook,Buruh,0
+63,50,Wanita,115784,30,8,4,1,Kota B,Twitter,Karyawan Swasta,1
+64,58,Wanita,97387,56,3,0,1,Kota A,Instagram,Mahasiswa,2
+65,39,Wanita,30995,1,2,2,3,Kota A,Facebook,Mahasiswa,0
+66,33,Pria,65065,48,7,2,4,Kota B,Twitter,Karyawan Swasta,2
+67,58,Pria,49791,2,9,3,1,Kota B,Instagram,PNS,0
+68,54,Pria,93838,26,8,0,3,Kota B,Twitter,Karyawan Swasta,2
+69,48,Pria,113921,1,9,1,3,Kota C,Facebook,PNS,1
+70,56,Wanita,50615,22,2,3,3,Kota C,Instagram,Karyawan Swasta,0
+71,33,Wanita,42213,28,2,2,1,Kota B,Instagram,Freelancer,0
+72,51,Wanita,55862,56,3,5,1,Kota C,Twitter,Karyawan Swasta,0
+73,38,Wanita,80730,33,1,0,5,Kota C,Twitter,Freelancer,2
+74,49,Pria,91117,40,10,3,2,Kota B,Instagram,Buruh,2
+75,30,Pria,42025,20,9,1,4,Kota C,Twitter,Buruh,0
+76,30,Wanita,120328,17,2,5,4,Kota C,Facebook,PNS,1
+77,46,Wanita,128421,17,8,4,2,Kota A,Instagram,Freelancer,1
+78,37,Wanita,33662,8,10,0,3,Kota A,Twitter,PNS,0
+79,47,Wanita,76999,11,5,0,3,Kota B,Facebook,Freelancer,2
+80,18,Pria,89642,4,4,3,2,Kota C,Instagram,PNS,2
+81,18,Wanita,58880,33,1,2,3,Kota C,Twitter,Karyawan Swasta,0
+82,23,Pria,67138,11,9,2,3,Kota C,Twitter,Karyawan Swasta,2
+83,59,Wanita,71542,29,8,1,1,Kota B,Facebook,Karyawan Swasta,2
+84,20,Pria,77906,43,6,2,3,Kota B,Instagram,Freelancer,2
+85,55,Pria,134343,19,7,1,2,Kota A,Instagram,PNS,1
+86,33,Pria,77098,24,9,4,2,Kota A,Twitter,PNS,2
+87,60,Pria,49254,19,3,4,1,Kota B,Instagram,Mahasiswa,0
+88,27,Wanita,113712,33,8,2,1,Kota C,Instagram,Mahasiswa,1
+89,28,Pria,88320,15,4,1,3,Kota A,Facebook,Mahasiswa,2
+90,53,Pria,135456,3,7,2,1,Kota A,Instagram,PNS,1
+91,56,Pria,63000,7,6,3,2,Kota B,Instagram,Freelancer,0
+92,30,Wanita,125065,35,8,1,2,Kota B,Facebook,Buruh,1
+93,34,Pria,68974,60,5,2,3,Kota A,Facebook,Buruh,2
+94,53,Pria,138807,33,3,5,3,Kota A,Instagram,PNS,1
+95,40,Wanita,56821,44,6,3,2,Kota A,Instagram,Karyawan Swasta,0
+96,43,Pria,138307,30,6,2,2,Kota A,Facebook,Freelancer,1
+97,55,Pria,121912,2,7,3,5,Kota A,Facebook,Mahasiswa,1
+98,48,Pria,105720,19,2,0,4,Kota B,Twitter,Freelancer,1
+99,47,Wanita,64619,58,10,1,4,Kota A,Facebook,Mahasiswa,2
+100,51,Pria,62956,26,9,2,1,Kota A,Facebook,Freelancer,0
+101,22,Pria,88503,22,6,1,2,Kota A,Instagram,Mahasiswa,2
+102,49,Pria,69141,18,8,2,4,Kota B,Instagram,Freelancer,2
+103,47,Wanita,65626,56,9,4,4,Kota C,Facebook,Freelancer,2
+104,28,Wanita,148423,44,5,5,4,Kota C,Facebook,Mahasiswa,1
+105,23,Pria,41641,12,3,2,2,Kota A,Facebook,Buruh,0
+106,56,Pria,116844,55,6,2,2,Kota A,Twitter,Karyawan Swasta,1
+107,59,Pria,43731,17,1,5,5,Kota C,Twitter,Buruh,0
+108,54,Pria,67235,5,6,3,2,Kota A,Facebook,Buruh,2
+109,48,Pria,33768,12,10,0,4,Kota C,Facebook,PNS,0
+110,30,Wanita,56141,52,1,1,1,Kota A,Facebook,Karyawan Swasta,0
+111,33,Wanita,78929,50,1,2,5,Kota A,Twitter,Karyawan Swasta,2
+112,46,Wanita,120447,44,8,4,2,Kota C,Facebook,Karyawan Swasta,1
+113,24,Wanita,104964,31,4,5,2,Kota A,Instagram,PNS,2
+114,30,Wanita,90663,41,9,1,2,Kota A,Facebook,Freelancer,2
+115,42,Wanita,63681,51,3,4,4,Kota A,Facebook,Mahasiswa,0
+116,33,Wanita,43359,6,10,5,3,Kota B,Twitter,Karyawan Swasta,0
+117,21,Pria,115638,13,2,3,5,Kota A,Instagram,PNS,1
+118,24,Pria,128096,35,5,5,1,Kota C,Instagram,Freelancer,1
+119,29,Wanita,143585,60,2,4,4,Kota C,Twitter,Mahasiswa,1
+120,44,Pria,137681,38,7,0,4,Kota C,Twitter,Mahasiswa,1
+121,25,Wanita,108629,7,10,2,1,Kota C,Instagram,Mahasiswa,1
+122,20,Wanita,87759,35,4,3,1,Kota B,Facebook,Mahasiswa,2
+123,49,Wanita,119949,52,10,4,2,Kota A,Facebook,PNS,1
+124,50,Wanita,114423,18,4,4,3,Kota C,Instagram,Freelancer,1
+125,26,Wanita,85709,15,4,1,4,Kota B,Facebook,PNS,2
+126,60,Wanita,121462,30,1,4,4,Kota B,Instagram,Mahasiswa,1
+127,55,Wanita,67215,5,4,4,3,Kota B,Twitter,Buruh,2
+128,41,Wanita,129038,15,10,3,4,Kota C,Instagram,Buruh,1
+129,54,Wanita,76317,60,9,4,4,Kota C,Twitter,Freelancer,2
+130,55,Wanita,110567,4,2,5,4,Kota A,Facebook,Karyawan Swasta,1
+131,53,Wanita,74798,38,8,4,1,Kota A,Facebook,PNS,2
+132,39,Pria,36462,51,8,4,3,Kota B,Instagram,Freelancer,0
+133,53,Pria,114544,40,3,0,5,Kota A,Facebook,Buruh,1
+134,22,Wanita,71420,53,9,2,4,Kota B,Instagram,Karyawan Swasta,2
+135,30,Pria,143014,36,1,1,2,Kota A,Instagram,Freelancer,1
+136,32,Wanita,124935,15,2,2,2,Kota B,Instagram,Mahasiswa,1
+137,49,Pria,63030,5,7,2,2,Kota A,Facebook,Karyawan Swasta,0
+138,50,Wanita,36840,41,6,0,2,Kota C,Instagram,Freelancer,0
+139,45,Wanita,36896,16,5,0,5,Kota A,Facebook,Karyawan Swasta,0
+140,23,Pria,145272,60,8,1,5,Kota B,Facebook,Mahasiswa,1
+141,28,Pria,33846,28,1,3,5,Kota C,Twitter,Buruh,0
+142,26,Pria,79573,3,5,2,5,Kota C,Instagram,Mahasiswa,2
+143,58,Pria,53500,37,7,3,2,Kota A,Facebook,PNS,0
+144,45,Pria,82623,4,3,4,1,Kota A,Facebook,PNS,2
+145,20,Wanita,147911,19,2,2,4,Kota A,Twitter,PNS,1
+146,48,Pria,134208,60,3,2,5,Kota B,Instagram,Buruh,1
+147,21,Pria,110978,40,5,4,1,Kota A,Facebook,PNS,1
+148,49,Wanita,75560,33,8,3,2,Kota C,Facebook,Karyawan Swasta,2
+149,44,Pria,85445,10,3,0,4,Kota A,Twitter,PNS,2
+150,50,Pria,35983,46,4,5,5,Kota C,Facebook,Buruh,0
+151,27,Pria,142899,7,4,3,4,Kota B,Facebook,Buruh,1
+152,39,Wanita,105732,24,10,1,2,Kota A,Twitter,Karyawan Swasta,1
+153,40,Wanita,39073,59,5,5,3,Kota C,Twitter,Freelancer,0
+154,20,Pria,94486,18,2,3,4,Kota C,Instagram,Mahasiswa,2
+155,39,Pria,57005,29,10,5,2,Kota B,Twitter,Karyawan Swasta,0
+156,32,Pria,133873,13,7,0,1,Kota A,Facebook,Buruh,1
+157,33,Pria,107645,34,1,2,1,Kota C,Twitter,Buruh,1
+158,27,Pria,111933,7,5,0,4,Kota A,Instagram,Freelancer,1
+159,45,Pria,147034,38,4,1,4,Kota B,Instagram,Karyawan Swasta,1
+160,36,Pria,112177,23,9,2,1,Kota B,Facebook,Karyawan Swasta,1
+161,47,Pria,137361,32,3,1,5,Kota B,Twitter,Buruh,1
+162,29,Wanita,97561,52,3,4,5,Kota A,Twitter,Karyawan Swasta,2
+163,26,Wanita,42192,3,10,1,4,Kota A,Twitter,Mahasiswa,0
+164,24,Pria,114918,14,9,0,3,Kota C,Twitter,PNS,1
+165,46,Pria,118126,30,2,0,5,Kota A,Facebook,Mahasiswa,1
+166,23,Pria,36993,10,4,0,2,Kota A,Instagram,PNS,0
+167,18,Wanita,113393,42,9,2,3,Kota B,Twitter,Mahasiswa,1
+168,24,Pria,82566,28,1,3,1,Kota C,Instagram,Freelancer,2
+169,53,Wanita,98030,36,1,1,2,Kota C,Twitter,Buruh,2
+170,54,Wanita,145092,34,10,3,2,Kota C,Twitter,PNS,1
+171,44,Pria,70838,14,4,4,2,Kota A,Facebook,Mahasiswa,2
+172,49,Pria,57404,60,5,5,5,Kota A,Instagram,Mahasiswa,0
+173,34,Wanita,37442,57,4,5,3,Kota A,Facebook,Freelancer,0
+174,26,Wanita,148228,32,4,0,2,Kota B,Twitter,Buruh,1
+175,58,Wanita,99549,39,10,5,1,Kota A,Facebook,PNS,2
+176,60,Wanita,59067,35,6,4,5,Kota B,Instagram,PNS,0
+177,40,Pria,138546,21,4,2,4,Kota C,Twitter,Mahasiswa,1
+178,26,Wanita,95235,49,9,1,1,Kota A,Instagram,PNS,2
+179,34,Wanita,81152,16,5,5,5,Kota B,Facebook,Buruh,2
+180,26,Wanita,95472,41,6,5,4,Kota C,Instagram,PNS,2
+181,49,Wanita,77136,23,2,0,5,Kota B,Instagram,Mahasiswa,2
+182,42,Pria,107367,11,6,2,3,Kota A,Twitter,Freelancer,1
+183,23,Wanita,67194,5,2,3,1,Kota A,Instagram,PNS,2
+184,52,Wanita,33653,17,1,2,1,Kota C,Facebook,Buruh,0
+185,28,Pria,52714,37,2,2,4,Kota C,Facebook,Buruh,0
+186,46,Pria,104073,20,4,2,2,Kota A,Facebook,Karyawan Swasta,2
+187,19,Wanita,71334,60,1,2,4,Kota A,Instagram,PNS,2
+188,37,Wanita,66264,27,4,0,5,Kota A,Facebook,Mahasiswa,2
+189,25,Pria,138039,11,2,4,2,Kota A,Twitter,Karyawan Swasta,1
+190,33,Pria,47002,43,9,0,4,Kota B,Facebook,Freelancer,0
+191,52,Wanita,81871,37,9,5,3,Kota C,Instagram,Mahasiswa,2
+192,42,Wanita,56063,11,5,5,5,Kota B,Twitter,Buruh,0
+193,30,Pria,128172,37,9,2,1,Kota A,Facebook,Karyawan Swasta,1
+194,25,Wanita,85525,7,5,5,1,Kota C,Twitter,Freelancer,2
+195,45,Wanita,103746,15,4,3,1,Kota B,Instagram,Freelancer,2
+196,21,Wanita,86584,53,5,1,1,Kota B,Instagram,Karyawan Swasta,2
+197,20,Pria,32141,40,2,2,5,Kota B,Twitter,Freelancer,0
+198,21,Wanita,141253,11,5,2,1,Kota B,Instagram,Freelancer,1
+199,37,Wanita,136533,27,3,3,1,Kota A,Twitter,PNS,1
+200,47,Pria,56019,39,9,2,1,Kota A,Instagram,PNS,0

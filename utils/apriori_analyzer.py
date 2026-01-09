@@ -5,7 +5,7 @@ from utils.file_handler import read_full_file
 from utils.debug_utils import logger
 
 
-def analyze_with_apriori(source, filename=None, min_support=0.05, metric="lift", min_threshold=1.0):
+def analyze_apriori(source, filename=None, min_support=0.05, metric="lift", min_threshold=1.0):
     """
     Melakukan analisis asosiasi menggunakan algoritma Apriori.
     Parameter:

@@ -41,7 +41,8 @@ from data_sources.gdrive_source import download_from_gdrive, preview_from_gdrive
 from utils.kmeans_analyzer import analyze_kmeans 
 import config
 
-from utils.apriori_analyzer import analyze_with_apriori
+from utils.apriori_analyzer import analyze_apriori
+from utils.ensemble_analyzer import analyze_ensemble
 
 def main():
     if not setup_kaggle_api(config.KAGGLE_USERNAME, config.KAGGLE_KEY):
@@ -108,11 +109,57 @@ def main():
 
         elif choice == "7":
             #file_path = input("Masukkan path file CSV/XLSX untuk analisis Apriori: ").strip()
-            path = input("Masukkan path dataset lokal (mis. data/local_datasets/.../file.csv): ")
-            filename = path.split("/")[-1]
-            analyze_with_apriori(path, filename)
+            #path = input("Masukkan path dataset lokal (mis. data/local_datasets/.../file.csv): ")
+            #filename = path.split("/")[-1]
+            #analyze_with_apriori(path, filename)
+            datasets = list_local_datasets(show_files=False)
+            if not datasets:
+                print("(Belum ada dataset lokal untuk dianalisis.)")
+                continue
+
+            try:
+                idx = int(input("Pilih dataset untuk analisis [1-n]: "))
+                if idx < 1 or idx > len(datasets):
+                    print("Nomor tidak valid.")
+                    continue
+
+                dataset_path = datasets[idx - 1].lstrip("/")
+                print(f"Memilih dataset: {dataset_path}")
+                if not dataset_path:
+                    print("Dataset tidak ditemukan secara lokal.")
+                    continue
+
+                analyze_apriori(dataset_path)
+
+            except ValueError:
+                print("Input tidak valid.")
+                continue
 
         elif choice == "8":
+            datasets = list_local_datasets(show_files=False)
+            if not datasets:
+                print("(Belum ada dataset lokal untuk dianalisis.)")
+                continue
+
+            try:
+                idx = int(input("Pilih dataset untuk analisis [1-n]: "))
+                if idx < 1 or idx > len(datasets):
+                    print("Nomor tidak valid.")
+                    continue
+
+                dataset_path = datasets[idx - 1].lstrip("/")
+                print(f"Memilih dataset: {dataset_path}")
+                if not dataset_path:
+                    print("Dataset tidak ditemukan secara lokal.")
+                    continue
+
+                analyze_ensemble(dataset_path)
+
+            except ValueError:
+                print("Input tidak valid.")
+                continue
+            
+        elif choice == "9":
             delete_local_dataset()
         
         elif choice == "q":
