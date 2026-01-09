@@ -474,7 +474,7 @@ def handle_direct_preview(local_path: str, file_type: str):
     save_confirmation(local_path)
     return preview_text
 def save_confirmation(file_path: str, folder_name: str = None):
-    print("\n✅ Preview dataset berhasil ditampilkan.")
+    print("\n Preview dataset berhasil ditampilkan.")
     
     #logger.info(f"Menampilkan konfirmasi penyimpanan untuk file: {file_path}")
 
@@ -497,16 +497,16 @@ def save_confirmation(file_path: str, folder_name: str = None):
             # Ekstrak ZIP ke subfolder dataset
             with zipfile.ZipFile(file_path, 'r') as zip_ref:
                 zip_ref.extractall(dataset_dir)
-            print(f"📦 File ZIP diekstrak ke: {dataset_dir}")
+            print(f" File ZIP diekstrak ke: {dataset_dir}")
         else:
             # Copy file biasa
             dest_path = os.path.join(dataset_dir, dataset_name)
             shutil.copy(file_path, dest_path)
-            print(f"📂 Dataset disalin ke: {dest_path}")
+            print(f" Dataset disalin ke: {dest_path}")
 
         #logger.info(f"Dataset disimpan di folder lokal: {dataset_dir}")
     else:
-        print("💾 Dataset tidak disimpan (hanya preview sementara).")
+        print(" Dataset tidak disimpan (hanya preview sementara).")
 def handle_remove_readonly(func, path, exc_info):
     """
     Ubah permission file agar bisa dihapus.

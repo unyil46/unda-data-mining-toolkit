@@ -13,10 +13,10 @@ def analyze_linear_regression(dataset_path):
     User memilih target kolom Y dan fitur X dari dataset numerik.
     """
     local_path = dataset_path.lstrip("/")
-    print(f"\n📈 Membaca dataset: {dataset_path}")
+    print(f"\n Membaca dataset: {dataset_path}")
 
     if not os.path.exists(local_path):
-        print("❌ Dataset tidak ditemukan secara lokal.")
+        print(" Dataset tidak ditemukan secara lokal.")
         logger.error("Dataset tidak ditemukan.")
         return
 
@@ -29,12 +29,12 @@ def analyze_linear_regression(dataset_path):
         elif ext == "json":
             df = pd.read_json(local_path)
         else:
-            print(f"❌ Format file {ext} belum didukung.")
+            print(f" Format file {ext} belum didukung.")
             return
 
         numeric_df = df.select_dtypes(include=["number"]).dropna()
         if numeric_df.empty:
-            print("❌ Tidak ada kolom numerik yang bisa dianalisis.")
+            print(" Tidak ada kolom numerik yang bisa dianalisis.")
             return
 
         print("\nKolom numerik yang tersedia:")
@@ -43,11 +43,11 @@ def analyze_linear_regression(dataset_path):
 
         target_col = input("\nMasukkan nama kolom target (Y): ").strip()
         if target_col not in numeric_df.columns:
-            print("❌ Kolom target tidak valid.")
+            print(" Kolom target tidak valid.")
             return
 
         feature_cols = [c for c in numeric_df.columns if c != target_col]
-        print(f"📊 Kolom fitur yang digunakan: {', '.join(feature_cols)}")
+        print(f" Kolom fitur yang digunakan: {', '.join(feature_cols)}")
 
         X = numeric_df[feature_cols]
         y = numeric_df[target_col]
@@ -64,7 +64,7 @@ def analyze_linear_regression(dataset_path):
         mse = mean_squared_error(y_test, y_pred)
         r2 = r2_score(y_test, y_pred)
 
-        print("\n✅ Hasil Analisis Regresi Linier:")
+        print("\n Hasil Analisis Regresi Linier:")
         print(f"Koefisien: {model.coef_}")
         print(f"Intercept: {model.intercept_}")
         print(f"MSE (Mean Squared Error): {mse:.4f}")
@@ -72,10 +72,10 @@ def analyze_linear_regression(dataset_path):
 
         output_path = local_path.replace(".csv", "_regression_result.csv")
         pd.DataFrame({"y_actual": y_test, "y_predicted": y_pred}).to_csv(output_path, index=False)
-        print(f"\n📁 Hasil prediksi disimpan ke: {output_path}")
+        print(f"\n Hasil prediksi disimpan ke: {output_path}")
 
         logger.info(f"Hasil regresi linier disimpan ke {output_path}")
 
     except Exception as e:
         logger.error(f"Gagal melakukan analisis regresi linier: {e}")
-        print(f"❌ Terjadi kesalahan: {e}")
+        print(f" Terjadi kesalahan: {e}")

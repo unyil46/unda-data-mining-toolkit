@@ -24,6 +24,7 @@ project/
     └── file_checker.py
     └── file_manager.py
     └── kmeans_analyzer.py3
+    └── ensemble_analyzer.py
     |── linier_regresion_analyzer.py
     └── file_handler.py'''
 
@@ -46,7 +47,7 @@ from utils.ensemble_analyzer import analyze_ensemble
 
 def main():
     if not setup_kaggle_api(config.KAGGLE_USERNAME, config.KAGGLE_KEY):
-        print("❌ Gagal inisialisasi Kaggle API. Cek konfigurasi di file .env atau config.py.")
+        print(" Gagal inisialisasi Kaggle API. Cek konfigurasi di file .env atau config.py.")
         return
 
     while True: 
@@ -65,7 +66,7 @@ def main():
                 try:
                     limit = int(limit_input) if limit_input else 50
                 except ValueError:
-                    print("⚠️ Limit harus berupa angka. Proses menggunakan default (5).")
+                    print(" Limit harus berupa angka. Proses menggunakan default (5).")
                     limit = 50
             search_kaggle_dataset(query,limit=int(limit))
 
@@ -78,7 +79,7 @@ def main():
         #    if dataset:
         #        folder_path = download_and_extract_zip(dataset or "muhammadrezkyananda/data-rumah-makan-prima-kendari")
         #        if folder_path:
-        #            print(f"📂 Dataset berhasil disimpan di: {folder_path}")
+        #            print(f" Dataset berhasil disimpan di: {folder_path}")
 
         elif choice == "5":
             list_local_datasets(show_files=True)
@@ -164,16 +165,16 @@ def main():
         
         elif choice == "q":
             logger.info("Program dihentikan oleh pengguna.")
-            print("👋 Keluar dari aplikasi...")
+            print(" Keluar dari aplikasi...")
             break
 
         else:
-            print("❌ Pilihan tidak valid. Coba lagi.")
+            print(" Pilihan tidak valid. Coba lagi.")
 
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n❌ Dibatalkan oleh pengguna.")
+        print("\n Dibatalkan oleh pengguna.")
 

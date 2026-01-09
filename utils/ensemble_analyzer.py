@@ -28,17 +28,17 @@ def analyze_ensemble(dataset_path):
     selected_path = dataset_path
     local_path = selected_path.lstrip("/")
 
-    print(f"\n🤖 Membaca dataset: {selected_path}")
+    print(f"\nMembaca dataset: {selected_path}")
 
     if not os.path.exists(local_path):
         logger.error("Dataset tidak ditemukan secara lokal.")
-        print("❌ Dataset tidak ditemukan secara lokal.")
+        print("Dataset tidak ditemukan secara lokal.")
         return
 
     ext = detect_file_type(local_path)
     if not ext:
         logger.error(f"Format file {local_path} tidak dikenali.")
-        print(f"❌ Format file {local_path} tidak dikenali.")
+        print(f"Format file {local_path} tidak dikenali.")
         return
 
     try:
@@ -63,22 +63,24 @@ def analyze_ensemble(dataset_path):
         # ===============================
         candidate_targets = [ "target", "Target", "Outcome", "outcome","class", "Class","label", "Label","condition", "Condition"]
         target_col = next((c for c in candidate_targets if c in df.columns), None)
-        if target_col is None:
-            print("\nKolom tersedia:")
-        for col in df.columns:
-            print(f"- {col}")
+        if target_col is not None:
+            print(f"\nKolom target terdeteksi otomatis: {target_col}")
+        else:
+            print("\nKolom yang tersedia:")
+            for col in df.columns:
+                print(f"- {col}")
 
-        target_col = input("\nMasukkan nama kolom target: ").strip()
+            target_col = input("\nMasukkan nama kolom target: ").strip()
 
-        if target_col not in df.columns:
-            print("❌ Kolom target tidak valid.")
-            return
+            if target_col not in df.columns:
+                print("\nKolom target tidak valid.")
+                return
 
-        if target_col is None:
-            print("❌ Kolom target tidak ditemukan.")
-            return
+        #if target_col is None:
+        #    print("Kolom target tidak ditemukan.")
+        #    return
 
-        print(f"\n🎯 Kolom target terdeteksi: {target_col}")
+        print(f"\nKolom target terdeteksi: {target_col}")
 
         X = df.drop(columns=[target_col])
         y = df[target_col]
@@ -90,7 +92,7 @@ def analyze_ensemble(dataset_path):
         X = X[num_cols]
 
         if X.empty:
-            print("❌ Tidak ada fitur numerik untuk ensemble.")
+            print("Tidak ada fitur numerik untuk ensemble.")
             return
 
         # ===============================
@@ -138,7 +140,7 @@ def analyze_ensemble(dataset_path):
 
         acc = accuracy_score(y_test, y_pred)
 
-        print("\n✅ Hasil Ensemble Methods")
+        print("\n Hasil Ensemble Methods")
         print("=========================")
         print(f"Akurasi : {acc:.4f}")
         print("\nClassification Report:")
@@ -148,4 +150,4 @@ def analyze_ensemble(dataset_path):
 
     except Exception as e:
         logger.error(f"Gagal menjalankan Ensemble Methods: {e}")
-        print(f"❌ Terjadi kesalahan: {e}")
+        print(f"Terjadi kesalahan: {e}")

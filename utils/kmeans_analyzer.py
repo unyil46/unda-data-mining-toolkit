@@ -11,7 +11,7 @@ def analyze_kmeans(dataset_path):
 
     selected_path = dataset_path
     local_path = selected_path.lstrip("/")  # ubah ke9 path relatif sistem
-    print(f"\n📊 Membaca dataset: {selected_path}")
+    print(f"\n Membaca dataset: {selected_path}")
 
     if not os.path.exists(local_path):
         logger.error("Dataset tidak ditemukan secara lokal.")
@@ -22,7 +22,7 @@ def analyze_kmeans(dataset_path):
     ext = detect_file_type(local_path)
     if not ext:
         logger.error(f"Format file {local_path} tidak dikenali.")
-        print(f"❌ Format file {local_path} tidak dikenali.")
+        print(f" Format file {local_path} tidak dikenali.")
         return
 
     try:
@@ -50,7 +50,7 @@ def analyze_kmeans(dataset_path):
             numeric_df = numeric_df.fillna(numeric_df.median())
 
         if numeric_df.empty:
-            print("❌ Tidak ada kolom numerik untuk analisis K-Means.")
+            print(" Tidak ada kolom numerik untuk analisis K-Means.")
             return
 
         print("\nKolom numerik yang digunakan:")
@@ -67,15 +67,15 @@ def analyze_kmeans(dataset_path):
         df["Cluster"] = model.fit_predict(numeric_df)
         plot_kmeans_clusters(df, x_col=numeric_df.columns[0], y_col=numeric_df.columns[1], title="Hasil K-Means Clustering")
 
-        print(f"\n✅ Analisis K-Means selesai. Total cluster: {n_clusters}")
+        print(f"\nAnalisis K-Means selesai. Total cluster: {n_clusters}")
         print(df[["Cluster"] + list(numeric_df.columns)].head())
 
         output_path = local_path.replace(".csv", "_clustered.csv")
         df.to_csv(output_path, index=False)
-        print(f"\n📁 Hasil disimpan ke: {output_path}")
+        print(f"\n Hasil disimpan ke: {output_path}")
         logger.info(f"Hasil K-Means disimpan ke {output_path}")
 
     except Exception as e:
         logger.error(f"Gagal melakukan analisis K-Means: {e}")
-        print(f"❌ Terjadi kesalahan saat analisis: {e}")
+        print(f" Terjadi kesalahan saat analisis: {e}")
 
